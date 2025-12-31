@@ -1,0 +1,236 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #9879ed;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.service-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex: 1;
+  background: #e9ecef;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  background-color: #0d6efd;
+  color: #f8f3f7;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #084298;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #1e8d9e; /* soft grey */
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+#services h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: blue;
+  color: #f7f2fc;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #69d3f1;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  font-weight: bold;
+  color: black;
+}
+
+#services {
+  clear: both;
+}
+
+#portfolio {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#portfolio h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
+.portfolio {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.portfolio-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.portfolio-card h3 {
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.hero {
+  margin-top: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-email {
+  color: blue;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eaeaea;
+  margin-top: 40px;
+  font-size: 14px;
+}
